@@ -39,7 +39,7 @@ npx degit stratpoint-engineering/golden-paths/web/nextjs-fullstack my-app
 ### Backend
 | Stack | Status |
 |---|---|
-| `backend/java-springboot` | 🚧 Pending |
+| `backend/java-springboot` | ✅ Available |
 | `backend/nestjs-microservice` | 🚧 Pending |
 | `backend/fastify-microservice` | 🚧 Pending |
 | `backend/python-django` | 🚧 Pending |

@@ -1,0 +1,80 @@
+{
+  "name": "java-springboot",
+  "version": "1.0.0",
+  "description": "Java 21 + Spring Boot 3 + Spring Security + JPA/Hibernate + Flyway + Resilience4j",
+  "triggers": {
+    "hasAuth": ["login", "register", "signin", "signup", "auth", "jwt", "security"],
+    "hasMessaging": ["event", "observer", "publish", "subscribe", "kafka", "rabbit"],
+    "hasCircuitBreaker": ["circuit", "resilience", "fallback", "retry"],
+    "hasScheduled": ["scheduler", "cron", "batch", "scheduled"]
+  },
+  "classification": {
+    "categories": {
+      "controller": {
+        "outputPath": "src/main/java/com/company/app/controller/v1/{ClassName}Controller.java",
+        "signals": ["Controller", "Resource", "Endpoint", "Api"]
+      },
+      "service": {
+        "outputPath": "src/main/java/com/company/app/service/impl/{ClassName}ServiceImpl.java",
+        "signals": ["Service", "Manager", "Handler", "Processor"]
+      },
+      "repository": {
+        "outputPath": "src/main/java/com/company/app/repository/{ClassName}Repository.java",
+        "signals": ["Repository", "Dao", "Store"]
+      },
+      "entity": {
+        "outputPath": "src/main/java/com/company/app/model/entity/{ClassName}.java",
+        "signals": ["Entity", "Model", "Domain"]
+      },
+      "dto": {
+        "outputPath": "src/main/java/com/company/app/model/dto/{ClassName}DTO.java",
+        "signals": ["DTO", "Request", "Response", "Payload"]
+      }
+    }
+  },
+  "requiredFiles": [
+    "pom.xml",
+    "Dockerfile",
+    "docker-compose.yml",
+    ".env.example",
+    ".editorconfig",
+    ".gitignore",
+    "README.md",
+    ".github/workflows/ci.yml",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/ISSUE_TEMPLATE/bug_report.md",
+    ".github/ISSUE_TEMPLATE/feature_request.md",
+    "src/main/java/com/company/app/Application.java",
+    "src/main/java/com/company/app/config/SecurityConfig.java",
+    "src/main/java/com/company/app/config/SwaggerConfig.java",
+    "src/main/java/com/company/app/config/AppConfig.java",
+    "src/main/java/com/company/app/controller/advice/GlobalExceptionHandler.java",
+    "src/main/java/com/company/app/model/dto/ApiResponse.java",
+    "src/main/java/com/company/app/model/dto/ErrorResponse.java",
+    "src/main/java/com/company/app/exception/ResourceNotFoundException.java",
+    "src/main/java/com/company/app/exception/BusinessException.java",
+    "src/main/resources/application.yml",
+    "src/main/resources/application-dev.yml",
+    "src/main/resources/application-test.yml",
+    "src/main/resources/application-prod.yml",
+    "src/test/java/com/company/app/ApplicationTests.java",
+    "k8s/base/deployment.yaml",
+    "k8s/base/service.yaml",
+    "k8s/base/kustomization.yaml",
+    "k8s/overlays/dev/kustomization.yaml",
+    "k8s/overlays/staging/kustomization.yaml",
+    "k8s/overlays/prod/kustomization.yaml"
+  ],
+  "optionalFiles": {
+    "hasAuth": [
+      "src/main/java/com/company/app/security/JwtTokenProvider.java",
+      "src/main/java/com/company/app/security/JwtAuthenticationFilter.java"
+    ],
+    "hasCircuitBreaker": [
+      "src/main/java/com/company/app/config/Resilience4jConfig.java"
+    ],
+    "hasScheduled": [
+      "src/main/java/com/company/app/scheduler/AppScheduler.java"
+    ]
+  }
+}

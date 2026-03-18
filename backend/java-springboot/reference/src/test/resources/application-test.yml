@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:tc:postgresql:16-alpine:///testdb
+    username: test
+    password: test
+  flyway:
+    locations: classpath:db/migration,classpath:db/testdata
+  jpa:
+    show-sql: true
+
+logging:
+  level:
+    com.company.app: DEBUG

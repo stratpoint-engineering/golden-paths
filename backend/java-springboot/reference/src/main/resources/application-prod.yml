@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    show-sql: false
+
+logging:
+  level:
+    root: WARN
+    com.company.app: INFO
+  pattern:
+    console: '{"timestamp":"%d{ISO8601}","level":"%p","logger":"%c{1}","message":"%m","traceId":"%X{traceId}"}%n'
+
+management:
+  endpoint:
+    health:
+      show-details: never
