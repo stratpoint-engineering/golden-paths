@@ -7,5 +7,5 @@ Refer to the [Engineering Hub](https://engineering.stratpoint.io/backend/golden-
 ## Scaffold
 
 ```bash
-npx degit stratpoint-engineering/golden-paths/backend/python-django my-app
+npx degit stratpoint-engineering/golden-paths/backend/python-django/reference my-app
 ```

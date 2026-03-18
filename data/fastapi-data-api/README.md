@@ -7,5 +7,5 @@ Refer to the [Engineering Hub](https://engineering.stratpoint.io/data/golden-pat
 ## Scaffold
 
 ```bash
-npx degit stratpoint-engineering/golden-paths/data/fastapi-data-api my-app
+npx degit stratpoint-engineering/golden-paths/data/fastapi-data-api/reference my-app
 ```

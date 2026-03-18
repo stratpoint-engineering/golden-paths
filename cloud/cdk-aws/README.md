@@ -7,5 +7,5 @@ Refer to the [Engineering Hub](https://engineering.stratpoint.io/cloud/golden-pa
 ## Scaffold
 
 ```bash
-npx degit stratpoint-engineering/golden-paths/cloud/cdk-aws my-app
+npx degit stratpoint-engineering/golden-paths/cloud/cdk-aws/reference my-app
 ```

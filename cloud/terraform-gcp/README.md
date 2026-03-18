@@ -7,5 +7,5 @@ Refer to the [Engineering Hub](https://engineering.stratpoint.io/cloud/golden-pa
 ## Scaffold
 
 ```bash
-npx degit stratpoint-engineering/golden-paths/cloud/terraform-gcp my-app
+npx degit stratpoint-engineering/golden-paths/cloud/terraform-gcp/reference my-app
 ```

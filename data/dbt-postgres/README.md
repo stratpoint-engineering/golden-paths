@@ -7,5 +7,5 @@ Refer to the [Engineering Hub](https://engineering.stratpoint.io/data/golden-pat
 ## Scaffold
 
 ```bash
-npx degit stratpoint-engineering/golden-paths/data/dbt-postgres my-app
+npx degit stratpoint-engineering/golden-paths/data/dbt-postgres/reference my-app
 ```

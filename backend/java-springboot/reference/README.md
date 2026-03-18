@@ -28,7 +28,7 @@ A Spring Boot 3 application following [Stratpoint Java Spring Boot Golden Path](
 
 ```bash
 # Clone the project
-npx degit stratpoint-engineering/golden-paths/backend/java-springboot my-app
+npx degit stratpoint-engineering/golden-paths/backend/java-springboot/reference my-app
 cd my-app
 
 # Copy environment config

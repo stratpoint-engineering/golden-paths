@@ -7,14 +7,16 @@ Boilerplate starter templates for all Stratpoint engineering golden paths. Each 
 Scaffold any golden path using `degit` (no git history):
 
 ```bash
-npx degit stratpoint-engineering/golden-paths/<domain>/<stack> my-app
+npx degit stratpoint-engineering/golden-paths/<domain>/<stack>/reference my-app
 cd my-app
 ```
+
+> Each stack folder contains a `manifest.json` (used by the Stratpoint MCP tool) and a `reference/` folder with the actual boilerplate. Always point `degit` at `reference/`.
 
 **Example:**
 
 ```bash
-npx degit stratpoint-engineering/golden-paths/web/nextjs-fullstack my-app
+npx degit stratpoint-engineering/golden-paths/web/nextjs-fullstack/reference my-app
 ```
 
 ## Available Golden Paths

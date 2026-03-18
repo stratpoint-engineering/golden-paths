@@ -7,5 +7,5 @@ Refer to the [Engineering Hub](https://engineering.stratpoint.io/web/golden-path
 ## Scaffold
 
 ```bash
-npx degit stratpoint-engineering/golden-paths/web/svelte-fullstack my-app
+npx degit stratpoint-engineering/golden-paths/web/svelte-fullstack/reference my-app
 ```

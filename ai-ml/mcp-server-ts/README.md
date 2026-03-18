@@ -7,5 +7,5 @@ Refer to the [Engineering Hub](https://engineering.stratpoint.io/ai-ml/golden-pa
 ## Scaffold
 
 ```bash
-npx degit stratpoint-engineering/golden-paths/ai-ml/mcp-server-ts my-app
+npx degit stratpoint-engineering/golden-paths/ai-ml/mcp-server-ts/reference my-app
 ```
